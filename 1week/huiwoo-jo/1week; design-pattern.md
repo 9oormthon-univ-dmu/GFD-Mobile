@@ -1,15 +1,15 @@
 # 1주차 - 디자인 패턴의 종류와 특징
 ## 디자인 패턴이란
-개발에서 발생하는 반복적인 문제들을 해결하기 위한 해결 방법이다.
-디자인 패턴은 객체 지향의 4대 특성인 **캡슐화**, **상속**, **추상화**, **다형성**과 설계원칙 (SOLI)를 기반으로 구성되어있다.
+개발에서 발생하는 반복적인 문제들을 해결하기 위한 해결 방법이다.<br>
+디자인 패턴은 객체 지향의 4대 특성인 **캡슐화**, **상속**, **추상화**, **다형성**과 설계원칙 (SOLI)를 기반으로 구성되어있다.<br>
 
 ![design-pattern.png](design-pattern.png)
 <p align="center">Design Pattern의 분류</p>
 
 ## 모바일 앱 대표 아키텍처 패턴
-디자인 패턴 중 아키팩터 패턴은 공통적으로 자주 발생하는 문제를 해결하기 위한 재사용 가능한 해결 방법이다.
-다른 말로 설계 패턴이라고도한다.
-모바일 앱 개발에서 주로 사용하는 아키텍처는 4가지이다.
+디자인 패턴 중 아키팩터 패턴은 공통적으로 자주 발생하는 문제를 해결하기 위한 재사용 가능한 해결 방법이다.<br>
+다른 말로 설계 패턴이라고도한다.<br>
+모바일 앱 개발에서 주로 사용하는 아키텍처는 4가지이다.<br>
 
 ### 모바일 아키텍처의 종류
 - MVC : Model-View-Controller
@@ -44,12 +44,12 @@ Model-View-Controller
 4. View는 Model을 활용하여 UI를 업데이트한다.
 
 ### 특징
-MVC는 Model, View, Controller로 구성된 패턴이다.
-비지니스 로직과 UI를 분리하는 **관심사 분리**가 중점으로, 이후 나오는 아키텍처에 큰 영향을 끼쳤다.
-MVC 모델은 Controller가 여러개의 View를 선택할 수 있는 1:n 구조를 가진다.
+MVC는 Model, View, Controller로 구성된 패턴이다.<br>
+비지니스 로직과 UI를 분리하는 **관심사 분리**가 중점으로, 이후 나오는 아키텍처에 큰 영향을 끼쳤다.<br>
+MVC 모델은 Controller가 여러개의 View를 선택할 수 있는 1:n 구조를 가진다.<br>
 Controller은 View를 선택만 할 수 있으며 직접 업데이트를 하지는 않고, 선택된 View는 Controller를 알지 못한다.
 
-MVC 패턴은 가장 단순하여 보편적으로 사용된다.
+MVC 패턴은 가장 단순하여 보편적으로 사용된다.<br>
 그러나, View와 Model의 의존성이 높아 어플리케이션이 커질 수록 유지보수가 힘들다.
 
 ## MVP
@@ -72,10 +72,10 @@ Model-View-Presenter
 6. View는 Presenter가 응답한 데이터를 활용하여 UI를 업데이트한다.
 
 ### 특징
-Presenter은 사용자의 입력을 받은 View로 부터 호출받고, Model에게 비지니스 로직을 수행 및 데이터를 수신받으면 다시 View에게 전달하여 UI를 업데이트한다.
+Presenter은 사용자의 입력을 받은 View로 부터 호출받고, Model에게 비지니스 로직을 수행 및 데이터를 수신받으면 다시 View에게 전달하여 UI를 업데이트한다.<br>
 Presenter은 View와 Model의 인스턴스를 가지고 둘을 연결하며, Presenter과 View는 1:1의 관계를 가진다.
 
-MVP 모델은 MVC와 달리 View와 Model의 의존성이 존재하지 않으나, View와 Presenter 사이의 의존성이 높아진다.
+MVP 모델은 MVC와 달리 View와 Model의 의존성이 존재하지 않으나, View와 Presenter 사이의 의존성이 높아진다.<br>
 MVC와 비슷하게 어플리케이션이 커질 수록 의존성이 강해진다.
 
 ## MVVM
@@ -98,11 +98,11 @@ Model-View-ViewModel
 6. View는 View Model과 Data Binding으로 UI를 업데이트한다.
 
 ### 특징
-MVVM 패턴은 Command 패턴과 Data Binding, 두 가지 패턴을 사용하여 구성되어, View와 View Model 사이의 의존성이 없다.
+MVVM 패턴은 Command 패턴과 Data Binding, 두 가지 패턴을 사용하여 구성되어, View와 View Model 사이의 의존성이 없다.<br>
 View Model과 View는 1:1의 관계를 가진다.
 
-각 부분이 독립적이기에 모듈화 하여 개발을 진행이 가능하나, View Model를 구성하기가 까다롭다.
-상태 관리와 부수 효과(Side Effect)가 문제가 될 수 있다.
+각 부분이 독립적이기에 모듈화 하여 개발을 진행이 가능하나, View Model를 구성하기가 까다롭다.<br>
+상태 관리와 부수 효과(Side Effect)가 문제가 될 수 있다.<br>
 이는, 데이터를 개별적으로 관리하여, 복잡하게 묶여있는 함수들 간의 관계에서 문제가 발생 할 수 있다.
 
 ## MVI
@@ -125,8 +125,8 @@ Model-View-Intent
 5. View는 Model로 받은 새로운 모델로 UI를 업데이트한다.
 
 ### 특징
-Android는 여러 이슈들로 인하여 코드가 복잡해지기 쉽다.
-MVI 패턴은 단방향 (Uni-directional) 데이터 흐름과 불변성 (Immutability)로 예측 가능한 상태가 만들어져 유지보수가 용이하다.
+Android는 여러 이슈들로 인하여 코드가 복잡해지기 쉽다.<br>
+MVI 패턴은 단방향 (Uni-directional) 데이터 흐름과 불변성 (Immutability)로 예측 가능한 상태가 만들어져 유지보수가 용이하다.<br>
 각 부분의 의존성이 없다.
 
 허나, RxJava와 같은 Observable한 외부 라이브러리를 사용해야한다.
