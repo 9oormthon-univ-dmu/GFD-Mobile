@@ -30,7 +30,7 @@
 ```
 Model-View-Controller
 ```
-![MVC.png](design-pattern.png)
+![MVC.png](MVC.png)
 
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
