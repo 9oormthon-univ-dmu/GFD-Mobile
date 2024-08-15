@@ -30,6 +30,8 @@
 ```
 Model-View-Controller
 ```
+![MVC.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FMVC.png)
+
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
 - View : 사용자에게 보여지는 UI
@@ -54,6 +56,8 @@ MVC 패턴은 가장 단순하여 보편적으로 사용된다.
 ```
 Model-View-Presenter
 ```
+![MVP.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FMVP.png)
+
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
 - View : 사용자에게 보여지는 UI
@@ -78,6 +82,8 @@ MVC와 비슷하게 어플리케이션이 커질 수록 의존성이 강해진�
 ```
 Model-View-ViewModel
 ```
+![MVVM.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FMVVM.png)
+
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
 - View : 사용자에게 보여지는 UI
@@ -103,6 +109,8 @@ View Model과 View는 1:1의 관계를 가진다.
 ```
 Model-View-Intent
 ```
+![MVI.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FMVI.png)
+
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리, Intent를 관찰
 - View : 사용자에게 보여지는 UI, Model을 관찰
