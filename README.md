@@ -15,7 +15,7 @@
 
 ## 🙋🏻‍♀️ Contributors
 
-|<img src = "https://avatars.githubusercontent.com/u/84004687?v=4" width="120" height="120">|<img src = "https://avatars.githubusercontent.com/u/107173046?v=4" width="120" height="120">|
+|<img src = "https://github.com/user-attachments/assets/c086fa0a-0ebe-4fc0-849a-77720aa58130" alt="자몽" width="120" height="160">|<img src = "https://github.com/user-attachments/assets/73edecf3-1a9c-43ca-9bc8-0f656b34b101" alt="꾸미" width="120" height="120">|
 |:---:|:--:|
 |[조희우](https://github.com/huiwoo-jo)|[우승원](https://github.com/wsw0922)|
 |<img src="https://img.shields.io/badge/Kotlin-A97BF5?style=flat-squre&logo=Kotlin&logoColor=white" alt="Static Badge">|<img src="https://img.shields.io/badge/Flutter-0EB4FC?style=flat-squre&logo=Flutter&logoColor=white" alt="Static Badge">|
