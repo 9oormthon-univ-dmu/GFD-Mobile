@@ -3,7 +3,7 @@
 개발에서 발생하는 반복적인 문제들을 해결하기 위한 해결 방법이다.<br>
 디자인 패턴은 객체 지향의 4대 특성인 **캡슐화**, **상속**, **추상화**, **다형성**과 설계원칙 (SOLI)를 기반으로 구성되어있다.<br>
 
-![design-pattern.png](design-pattern.png)
+![design-pattern.png](img/design-pattern.png)
 <p align="center">Design Pattern의 분류</p>
 
 ## 모바일 앱 대표 아키텍처 패턴
@@ -30,7 +30,7 @@
 ```
 Model-View-Controller
 ```
-![MVC.png](MVC.png)
+![MVC.png](img/MVC.png)
 
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
@@ -56,7 +56,7 @@ MVC 패턴은 가장 단순하여 보편적으로 사용된다.<br>
 ```
 Model-View-Presenter
 ```
-![MVP.png](MVP.png)
+![MVP.png](img/MVP.png)
 
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
@@ -82,7 +82,7 @@ MVC와 비슷하게 어플리케이션이 커질 수록 의존성이 강해진�
 ```
 Model-View-ViewModel
 ```
-![MVVM.png](MVVM.png)
+![MVVM.png](img/MVVM.png)
 
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리
@@ -109,7 +109,7 @@ View Model과 View는 1:1의 관계를 가진다.
 ```
 Model-View-Intent
 ```
-![MVI.png](MVI.png)
+![MVI.png](img/MVI.png)
 
 ### 구조
 - Model : 어플리케이션에 사용되는 데이터와 데이터 처리, Intent를 관찰
