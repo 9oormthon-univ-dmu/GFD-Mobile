@@ -4,7 +4,7 @@
 MVC 디자인패턴은 디자인 패턴 중 하나로 **Model - View - Controller**의 약자이다.   
 애플리케이션을 데이터 부분과 UI 부분, 두 부분을 컨트롤하는 부분으로 나누는 패턴이다.
 
-![MVC-Process Img](MVC-Process.svg)
+![MVC-Process Img](img/MVC-Process.svg)
 
 > 디자인패턴 : 소프트웨어 설계에서 자주 발생하는 문제들을 해결하기 위해 사용되는 설계 방법.
 **코드의 재사용성과 유지보수성**을 높이는 것에 기여한다.
