@@ -70,3 +70,11 @@ class Solution {
 4. **문제점과 해결 방법**
     - 문제에 나와있는 대로 stack을 사용하여 현재 위치를 기반으로 뒤에 있는 숫자들을 순회하려고 하였으나, 그러면 시간 복잡도가 커지는 것을 확인했다.
     - Deque라는 기능을 발견하였고, 문제 접근 방식을 바꿔 문제를 해결하였다.
+
+## 코딩테스트 풀이 인증
+#### 연동 github
+<img width="1272" alt="image" src="https://github.com/user-attachments/assets/ee958beb-33ab-44d8-925d-679a8f1ad1f4">
+
+#### 프로그래머스 기록
+<img width="1194" alt="image" src="https://github.com/user-attachments/assets/facdeb09-be33-4a43-bf6a-ec5c1ad85ed9">
+
