@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+    :is(): 셀렉터를 그룹화 할 떄 갇단한 처리
+        - :is(ol, ul) li { font-size: 2rem; }
+        - :is(section, article, aside, nav) :is(h1, h2, h3, h4, h5, h6) { color: white; }
+    
+
+    Forgiving selector lists
+        일반적으로 일부가 유효하지 않으면 전체가 취소
+        => not-real이라는 유효하지 않은 셀렉터로 인하여 p도 적용되지 않음 
+        그러나 is는 forgibing하여 유효한 일부분 적용 -->
+    <style>
+        p,
+        p::not-real {
+            color: red;
+        }
+
+        :is(p, p::not-real) {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+     <p>반갑습니다.</p>
+</body>
+</html>

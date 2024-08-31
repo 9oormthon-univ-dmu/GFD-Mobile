@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            display: grid;
+            container-type: inline-size;
+            container-name: item-style;
+            border: 3px solid gray;
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background: lightpink;
+        }
+
+        @container item-style (max-width: 200px) {
+            .item {
+                background-color: lightgray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    종류         기준          꾸며지는거
+    ===         ===          ===
+    media       viewport     styling
+    container   container    
+    -->
+
+    <input
+        id="width"
+        name="width"
+        type="range"
+        min="200"  
+        max="300"  
+        value="200"
+        onInput="handelInput(event)"
+    />
+
+    <br />
+
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    
+    <script>
+        const containerEl = document.querySelector(".container");
+        function handelInput (e) {
+            console.log(e.target.value);
+            containerEl.style.width = `${e.target.value}px`;
+        }
+    </script>
+</body>
+</html>

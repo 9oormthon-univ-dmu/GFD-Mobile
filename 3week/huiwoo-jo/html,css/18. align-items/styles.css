@@ -1,0 +1,41 @@
+.container {
+    border: 6px solid lightgray;
+    display: flex;
+    height: 800px;
+    align-items: baseline;
+}
+
+.flex-item {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.item-1 {
+    background-color: lightblue;
+    padding-bottom: 3rem;
+}
+
+.item-2 {
+    background-color: lightyellow;
+    padding-top: 7rem;
+}
+
+.item-3 {
+    background-color: lightpink;
+    padding-top: 10rem;
+}
+
+.item-4 {
+    background-color: lightgreen;
+}
+
+.item-5 {
+    background-color: lightsalmon;
+}
+
+.item-6 {
+    background-color: lightskyblue;
+}

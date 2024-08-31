@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/side.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header_content">
+            <div class="header_buttons">
+                <a href="index.html" class="header_home">
+                    <img src="assets/icons/logo.svg" alt="logo">
+                </a>
+                <button class="header_theme-button" title="Toggle theme">
+                    <img class="header_theme-button-moon" src="assets/icons/moon.svg" alt="moon">
+                    <img class="header_theme-button-sun" src="assets/icons/sun.svg" alt="sun">
+                </button>
+            </div>
+            <div class="header_search">
+                <img src="assets/icons/search.svg" alt="search">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="header_buttons">
+                <a href="#">
+                    <img src="assets/icons/home.svg" alt="home">
+                    <img src="assets/icons/shop.svg" alt="shop">
+                    <img src="assets/icons/messenger.svg" alt="messenger">
+                    <div class="profile_picture">
+                          <img src="assets/images/avatar.png" alt="user picture">
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="content-container">
+            <div class="content">
+                <div class="sotries">
+                    <div class="story_avatar">
+                        <div class="stories_content">
+                            <button class="story">
+                                <div class="story_border">
+                                    <svg width="64" height="64">
+                                        <circle r="31" cy="32" cx="32"/>
+                                    </svg>
+                                </div>
+                                <div class="story_picture">
+                                    <img src="assets/images/avata.png" alt="user_picture">
+                                </div>
+                                <span class="story_user">user1</span>
+                            </button>
+                        </div>
+                </div>
+
+                <div class="posts">
+                    <div class="post">
+                        <div class="post_header">
+                            <div class="post_profile">
+                                <a href="#" class="poast_avatar">
+                                    <img src="assets/images/avatar.png" alt="user picture">
+                                </a>
+                                <a href="#" class="post_user">user1</a>
+                            </div>
+                            <button class="post_more-option">
+                                <img src="assets/icons/more.svg" alt="" />
+                            </button>
+                        </div>
+
+                        <div class="post_content">
+                            <div class="post_medias">
+                                <img class="post_media" src="assets/images/picture.jpeg" alt="post content" />
+                            </div>
+                        </div>
+
+                        <div class="post_footer">
+                            <div class="post_buttons">
+                                <button class="post_button">
+                                    <img src="assets/icons/hear.svg" alt="hear" />
+                                </button>
+                                <button class="post_button">
+                                    <img src="assets/icons/comment.svg" alt="comment" />
+                                </button>
+                                <button class="post_boutton post_button-align-right">
+                                    <img src="assets/icons/bookmark.svg" alt="bookmark" />
+                                </button>
+                            </div>
+                            <div class="post_infos">
+                                <div class="post_likes">
+                                     <a href="#" class="post_likes-avatar">
+                                        <img src="assets/images/avatar.png" alt="user_picture" />
+                                     </a>
+
+                                     <span>Liked by
+                                        <a class="post_name-underline" href="#">user2</a> and
+                                        <a href="#">33 others</a>
+                                     </span>
+                                </div>
+
+                                <div class="post_description">
+                                    <span>
+                                        <a class="post_name-underline" href="#">
+                                            user
+                                        </a>
+                                        description
+                                    </span>
+                                </div>
+
+                                <span class="post_date-time">30 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu">
+                <div class="side-menu_user-profile">
+                    <a href="#" class="side-menu_user-avatar">
+                        <img src="assets/images/avatar.png" alt="user picture">
+                    </a>
+                    <div class="side-menu_user-info">
+                        <a href="#">user1</a>
+                        <span>nickname</span>
+                    </div>
+                    <button class="side-menu_user-button">
+                        Switch
+                    </button>
+                </div>
+                <div class="side-menu_suggestions-section">
+                    <div class="side-menu_suggestions-header">
+                        <h2>Suggestions for you</h2>
+                        <button>See All</button>
+                    </div>
+                    <div class="side-menu_suggestions-content">
+                        <div class="side-menu_suggestion">
+                            <a href="#" class="side-menu_suggestion-avatar">
+                                <img src="assets/images/avatar" alt="user picture">
+                            </a>
+                            <div class="side-menu_suggestion-info">
+                                <a href="#" >
+                                    user11
+                                </a>
+                                <span>Followed by user2, user3 and others</span>
+                            </div>
+                            <button class="side-menu_suggestion-button">Follow</button>
+                        </div>
+                        <div class="side-menu_suggestion">
+                            <a href="#" class="side-menu_suggestion-avatar">
+                                <img src="assets/images/avatar" alt="user picture">
+                            </a>
+                            <div class="side-menu_suggestion-info">
+                                <a href="#" >
+                                    user11
+                                </a>
+                                <span>Followed by user2, user3 and others</span>
+                            </div>
+                            <button class="side-menu_suggestion-button">Follow</button>
+                        </div>
+                        <div class="side-menu_suggestion">
+                            <a href="#" class="side-menu_suggestion-avatar">
+                                <img src="assets/images/avatar" alt="user picture">
+                            </a>
+                            <div class="side-menu_suggestion-info">
+                                <a href="#" >
+                                    user11
+                                </a>
+                                <span>Followed by user2, user3 and others</span>
+                            </div>
+                            <button class="side-menu_suggestion-button">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-menu_footer">
+                    <div class="side-menu_footer-links">
+                        <ul class="side-menu_footer-list">
+                            <li class="side-menu_footer-item">
+                                <a href="#" class="side-menu_footer-link">About</a>
+                            </li>
+                            <li class="side-menu_footer-item">
+                                <a href="#" class="side-menu_footer-link">Help</a>
+                            </li>
+                            <li class="side-menu_footer-item">
+                                <a href="#" class="side-menu_footer-link">Press</a>
+                            </li>
+                            <li class="side-menu_footer-item">
+                                <a href="#" class="side-menu_footer-link">API</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="side-menu_footer-copyright">&copy; 2023 instagram from facebook</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

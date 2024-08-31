@@ -1,0 +1,25 @@
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-item {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.item-1 {
+    background-color: lightblue;
+}
+
+.item-2 {
+    background-color: lightyellow;
+}
+
+.item-3 {
+    background-color: lightpink;
+}
