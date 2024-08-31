@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+}
+
+.navbar {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar li a {
+    padding : 2px 2px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: gray;
+}
+
+.logo {
+    height: 45px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* banner */
+
+.banner {
+    background-image: url("./main-img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 448px;
+    color: white;
+}
+
+.banner_contents {
+    margin-left: 30px;
+    padding-top: 190px;
+    height: 190px;
+}
+
+.banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner_btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.banner_btn button {
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.banner_btn button:hover{
+    background-color: rgb(171, 163, 163);
+    cursor: pointer;
+}
+
+.banner_description {
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* row */
+
+.row {
+    color: white;
+}
+
+.row h2 {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_poster:hover {
+    transform: scale(1.1);
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_posterLarge {
+    max-height: 250px;
+}
