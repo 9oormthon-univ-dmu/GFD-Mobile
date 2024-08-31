@@ -1,3 +1,8 @@
+# 출석 인증
+## HRD-Net 출석 인증
+
+![출석인증](./img/KakaoTalk_20240831_202830828.jpg)
+
 # HTML / CSS 기초
 ## HTML(Hyper Text Markup Language) 개념 및 구성요소
 
