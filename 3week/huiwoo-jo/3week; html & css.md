@@ -3,8 +3,15 @@
 ## 출석 인증
 
 #### 고용노동부 HRD-NET
+![image](https://github.com/user-attachments/assets/153f8f3b-cbb1-4a97-8be6-0d9d8e91def0)
+
 
 #### 딥다이브 11주차 HTML/CSS
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/6ab605d6-a6e0-4c41-a359-ac5634058b20">
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/cde7bdfe-5c13-4a6c-9bcb-c671f0140c43">
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/a3694df8-79d2-4efb-a4d1-8f5209402ad9">
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/d621fdd3-7995-45cd-ab98-0e812d08e847">
+
 
 
 ## 공부 내용 정리
