@@ -1,0 +1,39 @@
+.container {
+    border: 6px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap | wrap | wrap-reverse */
+}
+
+.flex-item {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.item-1 {
+    background-color: lightblue;
+}
+
+.item-2 {
+    background-color: lightyellow;
+}
+
+.item-3 {
+    background-color: lightpink;
+}
+
+.item-4 {
+    background-color: lightgreen;
+}
+
+.item-5 {
+    background-color: lightsalmon;
+}
+
+.item-6 {
+    background-color: lightskyblue;
+}

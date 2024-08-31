@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .parent p:first-of-type {
+            color: lightpink;
+        }
+
+        .container {
+            background-color: lightblue;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        .container:hover {
+            background-color: lightcoral;
+        }
+
+        .focus-input:focus {
+            background-color: lightgreen;
+        }
+
+        .container-two>div {
+            margin-top: 30px;
+            background-color: lightpink;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        .container-two>div:nth-child(2n+1) {
+            background-color: lightskyblue;
+        }
+
+        .container-two>div:last-child {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <span>A</span>
+        <p>B</p>
+        <p>C</p>
+    </div>
+
+    <div class="container container-box">
+        Mose Hover
+    </div>
+
+    <input type="text" class="focus-input">
+
+    <div class="container-two">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

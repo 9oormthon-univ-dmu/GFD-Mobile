@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        div {
+            opacity: 0.7;
+            font: 12px Arial;
+        }
+
+        span.bold {
+            font-weight: bold;
+        }
+
+        #nordiv {
+            z-index: 8;
+            height: 70px;
+            background-color: #ffffcc;
+            border: 1px dashed #999966;
+            margin: 0px 50px 0px 50px;
+            text-align: center;
+        }
+
+        #reldiv1 {
+            z-index: 3;
+            height: 100px;
+            position: relative;
+            top: 30px;
+            border: 1px dashed#669966;
+            background-color: #ccffcc;
+            margin: 0px 50px 0px 50px;
+            text-align: center;
+        }
+
+        #reldiv2 {
+            z-index: 2;
+            height: 100px;
+            position: relative;
+            top: 15px;
+            border: 1px dashed#669966;
+            background-color: #ccffcc;
+            margin: 0px 50px 0px 50px;
+            text-align: center;
+        }
+
+        #absdiv1 {
+            z-index: 5;
+            position: absolute;
+            width: 150px;
+            height: 350px;
+            top: 10px;
+            border: 1px dashed#990000;
+            background-color: #ffdddd;
+            margin: 0px 50px 0px 50px;
+            text-align: center;
+        }
+
+        #absdiv2 {
+            z-index: 1;
+            height: 100px;
+            position: absolute;
+            width: 150px;
+            height: 350px;
+            top: 10px;
+            right: 10px;
+            border: 1px dashed#990000;
+            background-color: #ffdddd;
+            margin: 0px 50px 0px 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="absdiv1">
+        <br><span class="bold">DIV #1</span>
+        <br>position: absolute;
+        <br>z-index: 5;
+    </div>
+
+    <div id="reldiv1">
+        <br><span class="bold">DIV #2</span>
+        <br>position: relative;
+        <br>z-index: 3;
+    </div>
+
+    <div id="reldiv2">
+        <br><span class="bold">DIV #3</span>
+        <br>position: relative;
+        <br>z-index: 2;
+    </div>
+
+    <div id="absdiv2">
+        <br><span class="bold">DIV #4</span>
+        <br>position: absolute;
+        <br>z-index: 5;
+    </div>
+
+    <div id="nordiv">
+        <br><span class="bold">DIV #5</span>
+        <br>position: no positionig;
+        <br>z-index: 8;
+    </div>
+</body>
+</html>

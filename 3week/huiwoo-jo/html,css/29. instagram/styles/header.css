@@ -1,0 +1,100 @@
+.header {
+    width: 100%;
+    height: 44px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 1px solid var(--border);
+}
+
+.header_content {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 975px;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    margin-top: 5px;
+}
+
+.header_search {
+    width: 216px;
+    height: 28px;
+    display: none;
+    align-items: center;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .header_search{
+        display: flex;
+    }
+}
+
+.header_search img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.header_search input {
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 4px 10px 4px 28px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-light);
+    text-overflow: hidden;
+    white-space: nowrap;
+}
+
+.header_search input:focus {
+    color: var(--text-dark);
+}
+
+.header_buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile_picture {
+    width: 24px;
+    border-radius: 50%;
+}
+
+/* header Theme*/
+.header_theme-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header_theme-button-sun {
+    display: none;
+}
+
+.header_theme-button-moon {
+    display: unset;
+}
+
+:root.darkTheme .header_theme-button-sun {
+    display: unset;
+}
+
+:root.darkTheme .header_theme-button-moon {
+    display: none;
+}
