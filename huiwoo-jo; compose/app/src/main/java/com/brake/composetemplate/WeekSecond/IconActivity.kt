@@ -6,6 +6,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -41,6 +43,12 @@ fun IconContainer() {
         modifier = Modifier.size(24.dp),
         imageVector = ImageVector.vectorResource(id = R.drawable.ic_android_black_24dp),
         contentDescription = "지우기",
+    )
+
+    Icon(
+        modifier = Modifier.size(24.dp),
+        imageVector = Icons.Default.Add,
+        contentDescription = "Add"
     )
 }
 
