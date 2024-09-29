@@ -104,3 +104,6 @@ huiwoo-jo; compose/.gradle/8.0/fileHashes/fileHashes.lock
 huiwoo-jo; compose/.gradle/8.0/fileHashes/resourceHashesCache.bin
 huiwoo-jo; compose/.gradle/buildOutputCleanup/buildOutputCleanup.lock
 huiwoo-jo; compose/.gradle/buildOutputCleanup/outputFiles.bin
+*.bin
+*.lock
+*.iml
