@@ -107,3 +107,6 @@ huiwoo-jo; compose/.gradle/buildOutputCleanup/outputFiles.bin
 *.bin
 *.lock
 *.iml
+*.iml
+*.lock
+*.bin
