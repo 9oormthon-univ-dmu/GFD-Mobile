@@ -40,7 +40,7 @@ class ImageActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ImageCard(
+                    ImageContainer(
                         painter = painterResource(id = R.drawable.sample_image),
                         contentDescription = "Sample Image",
                         title = "Sample Title"
@@ -52,7 +52,7 @@ class ImageActivity : ComponentActivity() {
 }
 
 @Composable
-fun ImageCard(
+fun ImageContainer(
     painter: Painter,
     contentDescription: String,
     title: String,
@@ -98,7 +98,7 @@ fun ImageCard(
 @Composable
 fun ImagePreview() {
     ComposeTemplateTheme {
-        ImageCard(
+        ImageContainer(
             painter = painterResource(id = R.drawable.sample_image),
             contentDescription = "Sample Image",
             title = "Sample Title"
