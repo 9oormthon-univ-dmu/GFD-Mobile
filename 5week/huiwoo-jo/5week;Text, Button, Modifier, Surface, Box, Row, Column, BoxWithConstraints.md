@@ -1,4 +1,4 @@
-## 1주차
+## 5주차
 - Text, Button, Modifier
 - Surface, Box, Row, Column
 - BoxWithConstraints
@@ -8,7 +8,7 @@ https://developer.android.com/jetpack/compose/text?hl=ko
 ### Text의 속성
 Compose의 Text는 Text()로 선언하며, Xml의 TextView와 유사하다.
 속성은 총 14개로 아래와 같다.
-```kotlin
+``` kotlin
 @Composable
 fun Text(
     text: String,
