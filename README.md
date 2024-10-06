@@ -105,6 +105,9 @@ GFD; GrapeFruit Dream - 자몽꾸미 <br/> <br/>
 
 <div align="center">
   <p style="display: flex; align-items: center; gap: 10px;">
+    <a href="https://hits.seeyoufarm.com">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F9oormthon-univ-dmu/GFD-Mobile&count_bg=%2385ADFD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits">
+    </a>
     <img src="https://img.shields.io/badge/9oormthon-Univ?style=flat-square&link=https%3A%2F%2F9oormthon.university%2F" alt="Static Badge">
     <img src="https://img.shields.io/badge/FullStack-D83391?style=flat-squre" alt="Static Badge">
     <img src="https://img.shields.io/badge/GFD-FF7427?style=flat-squre" alt="Static Badge">
