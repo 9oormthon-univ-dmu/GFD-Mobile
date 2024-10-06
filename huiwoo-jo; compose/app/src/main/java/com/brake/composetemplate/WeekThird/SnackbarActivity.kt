@@ -30,7 +30,6 @@ class SnackbarActivity : ComponentActivity() {
 @Composable
 fun SnackbarContainer() {
     var showSnackbar by remember { mutableStateOf(false) }
-    val snackbarHostState = remember { SnackbarHostState() }
 
     Column(
         modifier = Modifier
@@ -44,7 +43,6 @@ fun SnackbarContainer() {
             Text("Show Snackbar")
         }
 
-        // Snackbar
         if (showSnackbar) {
             Snackbar(
                 action = {
