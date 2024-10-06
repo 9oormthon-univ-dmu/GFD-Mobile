@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation: animationName 5s linear 2s infinite alternate;
+        }
+
+        @keyframes animationName {
+            0% {
+                background: lightblue;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background: lightcoral;
+                left: 150px;
+                top: 0px;
+            }
+
+            50% {
+                background: lightcyan;
+                left: 150px;
+                top: 150px;
+            }
+
+            75% {
+                background-color: lightgray;
+                top: 0px;
+                top: 150px;
+            }
+
+            100% {
+                background: lightgreen;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

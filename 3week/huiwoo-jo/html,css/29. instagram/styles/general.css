@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --primary: #ffffff; 
+    --secondary: #fafafa;
+    --border: #dbdbdb;
+
+    --story-border: #c7c7c7;
+    
+    --text-dark: #262626;
+    --text-light: #999999;
+}
+
+:root.darkTheme {
+    --primary: #000000; 
+    --secondary: #050505;
+    --border: #262626;
+
+    --story-border: #707070;
+    
+    --text-dark: #fafafa;
+    --text-light: #999999;
+}

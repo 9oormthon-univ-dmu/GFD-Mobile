@@ -1,7 +1,7 @@
 # GFD-Mobile
 - kakao x goorm 구름톤 유니브 3기 동양미래대학교 스터디입니다.
-- KDT 딥다이브 풀스택 11회차 과정을 학습합니다.
-- 추가로 각자 모바일 개발을 학습합니다.
+- KDT 딥다이브 풀스택 11회차 과정을 학습합니다. (중단)
+- 각자 모바일 개발을 학습합니다.
 <br>
 
 ## ⚙️ Tech Stack
@@ -23,12 +23,79 @@
 <br>
 
 ## 📅 Curriculum
+<table>
+  <tr>
+    <td>주차</td>
+    <td>학습자</td>
+    <td>내용</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">1주차</td>
+    <td>우승원</td>
+    <td rowspan="2">디자인 패턴의 종류 및 특징</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">2주차</td>
+    <td>우승원</td>
+    <td rowspan="2">코딩 테스트</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+  </tr>
 
-|회차|내용|
-|---|---|
-|1회차|디자인 패턴의 종류 및 특징|
-|2회차|미정|
+  <tr>
+    <td rowspan="2">3주차</td>
+    <td>우승원</td>
+    <td rowspan="2">KDT 집체 교육</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+  </tr>
 
+   <tr>
+    <td rowspan="2">4주차</td>
+    <td>우승원</td>
+    <td rowspan="2">KDT 학습</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">5주차</td>
+    <td>우승원</td>
+    <td>Flutter 비동기 처리</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+    <td>Compose 컴포넌트 (1)</td>
+  </tr>
+
+   <tr>
+    <td rowspan="2">6주차</td>
+    <td>우승원</td>
+    <td>Flutter Stateful 위젯의 생명 주기</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+    <td>Compose 컴포넌트 (2)</td>
+  </tr>
+
+   <tr>
+    <td rowspan="2">7주차</td>
+    <td>우승원</td>
+    <td>Flutter 소셜 로그인 & 토큰 전송 및 관리</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+    <td>Compose 컴포넌트 (3)</td>
+  </tr>
+</table>
 <hr>
 
 <div align="center">

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    <!-- 
+    = 개념
+    vw: viewport
+    w: 디스플레이의 화질을 고려
+    sizes: 사용중인 vw 비율 
+    srcset: vw비율에 따른 설정
+    -->
+
+    <!-- <img 
+        src="https://placehold.co/1600x400/png"
+        style="width: 50vw"
+        sizes="50vw"
+        srcset="https://placehold.co/400x100/png 400w,
+            https://placehold.co/800x200/png 800w,
+            https://placehold.co/1600x400/png 1600w"
+    /> -->
+    
+    <!--
+        srcset: 한 번 가장 큰 이미지를 가져오면 그대로 사용
+        picture: 조건에 따라 이미지를 출력
+    -->
+    
+    <picture>
+        <source media="(max-width: 600px)" srcset="images/img2.jpg"/>
+        <img src="images/img1.jpg" style="width: 400px"/>
+
+    </picture>
+</body>
+</html>
