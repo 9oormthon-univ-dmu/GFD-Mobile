@@ -95,6 +95,16 @@
     <td>조희우</td>
     <td>Compose 컴포넌트 (3)</td>
   </tr>
+
+  <tr>
+    <td rowspan="2">8주차</td>
+    <td>우승원</td>
+    <td>Flutter ImagePicker 패키지</td>
+  </tr>
+  <tr>
+    <td>조희우</td>
+    <td>Compose 활용 (1)</td>
+  </tr>
 </table>
 <hr>
 
